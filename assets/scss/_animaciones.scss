@@ -1,0 +1,17 @@
+.header__redes a img:hover {
+
+    transform: rotate(360deg);
+    transition:0.8s;
+    
+}
+
+.contenedor__titulo {
+
+    a:hover {
+
+    color: $principal-color;
+    transform: translate(7px, -7px);
+    transition: 2s;
+    }
+}
+
