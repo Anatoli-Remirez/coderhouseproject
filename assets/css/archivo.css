@@ -176,3 +176,7 @@ body {
 
 .colecciones__galeria img {
   padding: 10px; }
+
+.contenedor__imagen--404 {
+  text-align: center;
+  padding-top: 40px; }
