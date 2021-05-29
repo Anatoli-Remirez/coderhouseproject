@@ -1,5 +1,5 @@
 $title-font: 'Poppins', sans-serif;
-$principal-color: rgb(218, 165, 52);
+$principal-color: black;
 $title-size: 16px;
 @import "header";
 @import "body";
@@ -45,5 +45,45 @@ $title-size: 16px;
     text-align: center;
     padding-top: 40px;
 }
+
+.subrayado {
+
+    width: 1000px;
+    height: 5px;
+    
+    background: black;
+    position: absolute;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    
+    
+}
+
+.boton__slide--verde{
+
+  
+        border: 1px solid black;
+        text-decoration: none;
+        color: black;
+        background: radial-gradient(#a8ff78, #78ffd6);
+        border-radius: 50px;
+        
+        padding: 15px;
+        margin-top: 320px;
+        margin-right: 60px;
+        font-size: 25px;
+        
+        
+}
+
+.carousel-caption {
+
+    text-align: right;
+    
+
+}
+
+
+
 
     
