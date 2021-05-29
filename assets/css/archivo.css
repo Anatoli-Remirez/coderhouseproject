@@ -131,7 +131,22 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap; }
+    flex-wrap: wrap; } }
+
+@media (max-width: 576px) and (max-width: 576px) {
+  .carousel-item img {
+    height: 200px; }
+  .carousel-item .boton__slide--verde {
+    font-size: 12px;
+    padding: 3px;
+    margin-top: 500px;
+    margin-right: 0px; } }
+
+@media (max-width: 576px) and (max-width: 576px) {
+  .boton__slide--verde {
+    font-size: 10px; } }
+
+@media (max-width: 576px) {
   ul li {
     font-size: 12px;
     line-height: 20px; }
@@ -202,5 +217,38 @@ body {
   margin-right: 60px;
   font-size: 25px; }
 
+.nomo__boton--verde {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background: radial-gradient(#a8ff78, #78ffd6);
+  border-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 5px;
+  margin-top: 550px;
+  margin-right: 60px;
+  margin-bottom: 100px;
+  font-size: 18px; }
+
+.imagen__nomo {
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 .carousel-caption {
   text-align: right; }
+
+#slide {
+  margin-bottom: 30px; }
+
+.homeGrid {
+  padding-top: 30px; }
+
+.col-sm {
+  padding-top: 20px; }
