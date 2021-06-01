@@ -1,0 +1,71 @@
+.grid__home--Novedades {
+
+    display: grid;
+    grid-template-areas: 
+        
+        "imagenGrande imagenPequeña1 imagenPequeña2"
+        "imagenGrande imagenPequeña3 imagenPequeña4";
+    
+    grid-template-columns: 560px 310px 310px;
+    grid-template-rows: 210px 210px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.imagen_principal {
+
+    grid-area: imagenGrande;
+}
+.imagen_secundaria1 {
+
+    grid-area: imagenPequeña1;
+}
+.imagen_secundaria2 {
+
+    grid-area: imagenPequeña2;
+}
+.imagen_secundaria3 {
+
+    grid-area: imagenPequeña3;
+}
+
+.imagen_secundaria4 {
+
+    grid-area: imagenPequeña4;
+}
+
+
+.grid__home--colecciones {
+
+    display: grid;
+    grid-template-areas: 
+        
+        " imagenPequeña1 imagenPequeña2 imagenGrande"
+        " imagenPequeña3 imagenPequeña4 imagenGrande";
+    
+    grid-template-columns: 310px 310px 560px;
+    grid-template-rows: 210px 210px;
+    padding-top: 30px;
+}
+
+.imagen_principal {
+
+    grid-area: imagenGrande;
+}
+.imagen_secundaria1 {
+
+    grid-area: imagenPequeña1;
+}
+.imagen_secundaria2 {
+
+    grid-area: imagenPequeña2;
+}
+.imagen_secundaria3 {
+
+    grid-area: imagenPequeña3;
+}
+
+.imagen_secundaria4 {
+
+    grid-area: imagenPequeña4;
+}

@@ -1,5 +1,5 @@
 $title-font: 'Poppins', sans-serif;
-$principal-color: black;
+$principal-color: orange;
 $title-size: 16px;
 @import "header";
 @import "body";
@@ -8,6 +8,8 @@ $title-size: 16px;
 @import "footer";
 @import "animaciones";
 @import "querys";
+@import "botones";
+@import "grids";
 
 
 #slide {
@@ -50,7 +52,6 @@ $title-size: 16px;
 
     width: 1000px;
     height: 5px;
-    
     background: black;
     position: absolute;
     margin-bottom: 100px;
@@ -58,62 +59,6 @@ $title-size: 16px;
     
     
 }
-
-.boton__slide--verde{
-
-  
-        border: 1px solid black;
-        text-decoration: none;
-        color: black;
-        background: radial-gradient(#a8ff78, #78ffd6);
-        border-radius: 50px;
-        padding: 15px;
-        margin-top: 320px;
-        margin-right: 60px;
-        font-size: 25px;     
-}
-
-
-
-
-    .nomo__boton--verde {
-
-    border: 1px solid black;
-    text-decoration: none;
-    color: black;
-    background: radial-gradient(#a8ff78, #78ffd6);
-    border-radius: 50px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 5px;
-    margin-top: 550px;
-    margin-right: 60px;
-    margin-bottom: 100px;
-    font-size: 18px;
-    
-    }
-
-    .imagen__nomo {
-
-        animation-duration: 4s;
-        animation-name: aparecer;
-    }
-
-@keyframes aparecer {
-
-    0% {
-
-        opacity: 0;
-        
-    }
-    100% {
-
-        opacity: 1;
-    }
-}
-
-  
-
 
 .carousel-caption {
 
@@ -138,4 +83,3 @@ $title-size: 16px;
 }
 
 
-    
