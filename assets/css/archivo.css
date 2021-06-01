@@ -183,27 +183,11 @@ ul li {
 
 @media (max-width: 576px) {
   .grid__home--Novedades {
-    display: grid;
-    grid-template-areas: "imagenGrande imagenPequeña1 imagenPequeña2" "imagenGrande imagenPequeña3 imagenPequeña4";
-    grid-template-columns: 190px 110px 110px;
-    grid-template-rows: 210px;
-    padding-top: 30px;
-    padding-bottom: 30px; }
-  .imagen_principal img {
-    width: 180px;
-    height: 170px; }
-  .imagen_secundaria1 img {
-    width: 100px;
-    height: 50px; }
-  .imagen_secundaria2 img {
-    width: 100px;
-    height: 50px; }
-  .imagen_secundaria3 img {
-    width: 100px;
-    height: 50px; }
-  .imagen_secundaria4 img {
-    width: 100px;
-    height: 50px; } }
+    display: flex;
+    flex-direction: row; }
+    .grid__home--Novedades img {
+      height: 100px;
+      width: 100px; } }
 
 .boton__slide--verde {
   border: 1px solid black;
@@ -256,6 +240,21 @@ ul li {
   position: absolute;
   margin-top: 376px; }
 
+.boton__colecciones--summer2 {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background: radial-gradient(#a8ff78, #78ffd6);
+  padding: 5px;
+  padding-right: 7px;
+  font-size: 15px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  position: absolute;
+  margin-top: 995px;
+  width: 80px;
+  margin-left: 610px; }
+
 .boton__colecciones--coffe {
   border: 1px solid black;
   text-decoration: none;
@@ -269,6 +268,21 @@ ul li {
   position: absolute;
   margin-top: 165px;
   margin-left: 310px; }
+
+.boton__colecciones--coffe2 {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background: radial-gradient(#a8ff78, #78ffd6);
+  padding: 5px;
+  padding-right: 7px;
+  font-size: 15px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  position: absolute;
+  margin-top: 475px;
+  margin-left: 610px;
+  width: 60px; }
 
 .boton__colecciones--fruits {
   border: 1px solid black;
@@ -284,6 +298,21 @@ ul li {
   margin-top: 376px;
   margin-left: 310px; }
 
+.boton__colecciones--fruits2 {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background: radial-gradient(#a8ff78, #78ffd6);
+  padding: 5px;
+  padding-right: 7px;
+  font-size: 15px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  position: absolute;
+  margin-top: 995px;
+  margin-left: 22px;
+  width: 60px; }
+
 .boton__colecciones--baker {
   border: 1px solid black;
   text-decoration: none;
@@ -296,6 +325,19 @@ ul li {
   border-top-left-radius: 0px;
   position: absolute;
   margin-top: 165px; }
+
+.boton__colecciones--baker2 {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background: radial-gradient(#a8ff78, #78ffd6);
+  padding: 5px;
+  padding-right: 7px;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 475px;
+  margin-left: 22px;
+  width: 60px; }
 
 .boton__personaliza {
   border: 1px solid black;

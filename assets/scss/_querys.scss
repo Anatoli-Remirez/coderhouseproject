@@ -123,48 +123,20 @@
 
     .grid__home--Novedades {
 
-        display: grid;
-        grid-template-areas: 
-            
-            "imagenGrande imagenPequeña1 imagenPequeña2"
-            "imagenGrande imagenPequeña3 imagenPequeña4";
+        display: flex;
+        flex-direction: row;
         
-        grid-template-columns: 190px 110px 110px;
-        grid-template-rows: 210px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        
-    }
+        img {
 
+            height: 100px;
+            width: 100px;
+        }
 
-    .imagen_principal img {
-
-        width: 180px;
-        height: 170px;
-    }
-
-    .imagen_secundaria1 img {
-
-        width: 100px;
-        height: 50px
-    }
-    .imagen_secundaria2 img {
-
-        width: 100px;
-        height: 50px
-    }
-    .imagen_secundaria3 img {
-
-        width: 100px;
-        height: 50px
-    }
-    .imagen_secundaria4 img {
-
-        width: 100px;
-        height: 50px
     }
 
 } 
+
+
 
 
 
