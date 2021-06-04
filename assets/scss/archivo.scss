@@ -10,12 +10,11 @@ $title-size: 16px;
 @import "querys";
 @import "botones";
 @import "grids";
+@import "novedades";
+@import "homeColecciones";
 
 
-#slide {
 
-    padding-top: 10px;
-}
 
 .contenedor__personaliza {
 
@@ -51,8 +50,9 @@ $title-size: 16px;
 .subrayado {
 
     width: 1000px;
-    height: 5px;
+    
     background: black;
+    color: black;
     position: absolute;
     margin-bottom: 100px;
     margin-left: 50px;
@@ -81,6 +81,55 @@ $title-size: 16px;
 
     padding-top: 20px;
 }
+
+.main .img-responsive {
+    margin-bottom: 30px;
+}
+
+.contenedor__imagen--eco {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+
+    .parrafoEco {
+    
+  
+        width: 570px;
+        text-align: left;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+}
+
+.contenedor__imagen--ricoh {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+
+    .parrafoRicoh {
+    
+  
+        width: 570px;
+        text-align: left;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+}
+
+
+
 
 
 
