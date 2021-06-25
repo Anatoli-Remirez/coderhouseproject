@@ -1,6 +1,7 @@
 $title-font: 'Poppins', sans-serif;
 $principal-color: orange;
 $title-size: 16px;
+
 @import "header";
 @import "body";
 @import "nav";
@@ -13,125 +14,6 @@ $title-size: 16px;
 @import "novedades";
 @import "homeColecciones";
 @import "colecciones";
-
-
-
-
-.contenedor__personaliza {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    line-height: 35px;
-
-    ul {
-        padding-right: 20px;
-    }
-
-    li {
-
-        padding-right: 20px;
-    }
-}
-
-.colecciones__galeria {
-    
-        img {
-
-            padding: 10px;
-        }
-}
-
-.contenedor__imagen--404 {
-
-    text-align: center;
-    padding-top: 40px;
-}
-
-.subrayado {
-
-    width: 1000px;
-    
-    background: black;
-    color: black;
-    position: absolute;
-    margin-bottom: 100px;
-    margin-left: 50px;
-    
-    
-}
-
-.carousel-caption {
-
-    text-align: right;
-    
-
-}
-
-#slide {
-
-    margin-bottom: 30px;
-}
-
-.homeGrid {
-
-    padding-top: 30px;
-}
-
-.col-sm {
-
-    padding-top: 20px;
-}
-
-.main .img-responsive {
-    margin-bottom: 30px;
-}
-
-.contenedor__imagen--eco {
-
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    text-align: center;
-
-    .parrafoEco {
-    
-  
-        width: 570px;
-        text-align: left;
-        padding-top: 10px;
-        margin-bottom: 10px;
-        align-items: center;
-    }
-}
-
-.contenedor__imagen--ricoh {
-
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    text-align: center;
-
-    .parrafoRicoh {
-    
-  
-        width: 570px;
-        text-align: left;
-        padding-top: 10px;
-        margin-bottom: 10px;
-        align-items: center;
-    }
-}
-
-
-
-
-
+@import "otrosCambios";
 
 

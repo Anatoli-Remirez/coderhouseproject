@@ -19,56 +19,58 @@
 
   <!--Header incluye logo, menú principal--> 
 
-  
   <header id="header">
 
     <div class="contenedor__header"> 
       <div class="header__logo">
         <a href="index.html"><img src="img/logoselarifa.png" height="80px" width="180" alt="logo"></a>
       </div>         
-    
+   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      
       <div class="container-fluid">
-         <a class="navbar-brand" href="https://www.selarifa.com/?page_id=211"target="_blank">Tienda</a>
+         <a class="navbar-brand" href="views/carrito.html"_blank">Tienda</a>
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="views/personalización.html">Personalización</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="nav-link" href="views/contacto.html">Contacto</a>
-                 </li>
-                 <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Colecciones</a>
-                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="views/fruits.html">Fruits</a></li>
-                    <li><a class="dropdown-item" href="views/coffe.html">Coffe</a></li>
-                    <li><a class="dropdown-item" href="views/summer.html">Summer</a></li>
-                    <li><a class="dropdown-item" href="views/baker.html">Baker</a></li>
-                    <li><a class="dropdown-item" href="views/elements.html">Elements</a></li>
-                    <li><a class="dropdown-item" href="views/mexico.html">México</a></li>
-                    
-                 </ul>
-                    </li>          
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-        
-                  </form>
-               </div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="views/personalización.html">Personalización</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="views/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Colecciones</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="views/fruits.html">Fruits</a></li>
+                  <li><a class="dropdown-item" href="views/coffe.html">Coffe</a></li>
+                  <li><a class="dropdown-item" href="views/summer.html">Summer</a></li>
+                  <li><a class="dropdown-item" href="views/baker.html">Baker</a></li>
+                  <li><a class="dropdown-item" href="views/elements.html">Elements</a></li>
+                  <li><a class="dropdown-item" href="views/mexico.html">México</a></li>
+                </ul>
+              </li>          
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            </form>
           </div>
-      </nav>
-        
-       
-    
+      </div>
+    </nav>
+         
   </header> 
-  
+
+  <!--Titulo principal-->
+
+  <div class="contenedor__titulo--principal">
+    <a href="#"><h1>TU TIENDA DE CAMISETAS</h1></a>
+    </div>
+
   <!--Slide--> 
     
-    <section id="slide">
+  <section id="slide">
             
        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
        <div class="carousel-inner">
@@ -76,7 +78,7 @@
          <img src="img/eco2 copia.jpg" height="400px" width="1000px" class="d-block w-100" alt="slide1">
          <div= class="carousel-caption">
           <div class="contenedor__titulo--slider">
-            <h1>Camisetas de algodón orgánico</h1>
+            <h2>Camisetas de algodón orgánico</h2>
           </div>
           <a class="boton__slide--verde" href="views/organico.html"><strong>¿Sabías que..?</strong></a>  
        </div>
@@ -93,7 +95,7 @@
           <img src="img/baker5 copia.jpg" height="400px" width="1000px" class="d-block w-100" alt="slide3">
           <div= class="carousel-caption">
             <div class="contenedor__titulo--slider">
-              <h3>Diseña tu propia camiseta</h3>
+              <h2>Diseña tu propia camiseta</h2>
             </div>
           <a class="boton__slide--verde" href="views/personalización.html"><strong>Personalízala</strong></a>
        </div>
@@ -108,18 +110,18 @@
         </button>              
        </div>
     
-    </section>
+  </section>
 
-    <hr style="color: black; background-color: black; height: 6px; margin-top: 50px;"/>
+  <hr style="color: black; background-color: black; height: 6px; margin-top: 50px;"/>
 
+  <!--Novedades-->
+
+  <section class="novedades">
+   
     <div class="contenedor__titulo">
-      <a href="404.html"><h1>NOVEDADES</h1></a>
+      <a href="404.html"><h3>NOVEDADES</h3></a>
     </div>
-    
-    
-    <!--Novedades-->
-    
-    
+
     <div class="row">
       <div class="col-md-4">
         <figure class="card card-product">
@@ -129,7 +131,7 @@
               <p class="desc">Camiseta algodón orgánico</p>
           </figcaption>
           <div class="bottom-wrap">
-            <a class="boton__novedades--comprar" href="https://www.selarifa.com/?product=camiseta-de-algodon-organico-unisex-9"target="_blank"><strong>COMPRAR</strong></a>	
+            <a class="boton__novedades--comprar" href="views/carrito.html"_blank"><strong>COMPRAR</strong></a>	
             <div class="price-wrap h5">
               <span class="price-new">12€</span>
             </div> 
@@ -144,7 +146,7 @@
               <p class="desc">Camiseta de algodón orgánico</p>
           </figcaption>
           <div class="bottom-wrap">
-            <a class="boton__novedades--comprar" href="https://www.selarifa.com/?product=camiseta-de-algodon-organico-unisex-9"target="_blank"><strong>COMPRAR</strong></a>	
+            <a class="boton__novedades--comprar" href="views/carrito.html"target="_blank"><strong>COMPRAR</strong></a>	
               <div class="price-wrap h5">
                 <span class="price-new">12€</span>
               </div> 
@@ -159,93 +161,88 @@
               <p class="desc">Camiseta de algodón orgánico</p>
           </figcaption>
           <div class="bottom-wrap">
-            <a class="boton__novedades--comprar" href="https://www.selarifa.com/?product=camiseta-de-algodon-organico-unisex-9"target="_blank"><strong>COMPRAR</strong></a>	
+            <a class="boton__novedades--comprar" href="views/carrito.html"target="_blank"><strong>COMPRAR</strong></a>	
               <div class="price-wrap h5">
                 <span class="price-new">12€</span>
               </div> 
           </div> 
         </figure>
       </div> 
-      
-      
-      
       </div> 
-
+  
+  </section>
 
   <hr style="color: black; background-color: black; height: 6px; margin-top: 50px;"/>
   
   <!--Colecciones-->
 
-  <div class="contenedor__titulo">
-  <a href="views/colecciones.html"><h1>COLECCIONES</h1></a>
-  </div>
+  <section class="colecciones">
 
-  <div class="container">
-    <div class="row">
-                <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                  <div style="background-image: url(img/bake1\ copia.jpg	);" class="image-grid-cover">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="views/baker.html" class="cover-wrapper">Baker</a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                  <div style="background-image: url(img/10\ copia.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="views/elements.html" class="cover-wrapper">Elements</a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                  <div style="background-image: url(img/c2\ copia.jpg	);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="views/coffe.html" class="cover-wrapper">Coffe time</a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                  <div style="background-image: url(img/frase2\ copia.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="views/mexico.html" class="cover-wrapper">México</a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                  <div style="background-image: url(img/fruta\ 4\ copia.jpg	);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="views/fruits.html" class="cover-wrapper">Fruits</a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 image-grid-item">
-                  <div style="background-image: url(img/s2\ copia.jpg);" class="entry-cover image-grid-cover has-image">
-                    <a href="#" class="image-grid-clickbox"></a>
-                    <a href="views/summer.html" class="cover-wrapper">Summer </a>
-                  </div>
-                </div>
-              </div>
+    <div class="contenedor__titulo">
+    <a href="views/colecciones.html"><h3>COLECCIONES</h3></a>
     </div>
 
-  
+    <div class="container">
+      <div class="row">
+         <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/bake1\ copia.jpg	);" class="image-grid-cover">
+             <a href="#" class="image-grid-clickbox"></a>
+              <a href="views/baker.html" class="cover-wrapper">Baker</a>
+           </div>
+          </div>
+         <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/10\ copia.jpg);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="views/elements.html" class="cover-wrapper">Elements</a>
+            </div>
+         </div>
+         <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+           <div style="background-image: url(img/c2\ copia.jpg	);" class="entry-cover image-grid-cover has-image">
+             <a href="#" class="image-grid-clickbox"></a>
+             <a href="views/coffe.html" class="cover-wrapper">Coffe time</a>
+           </div>
+         </div>
+         <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/frase2\ copia.jpg);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="views/mexico.html" class="cover-wrapper">México</a>
+            </div>
+         </div>
+         <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+           <div style="background-image: url(img/fruta\ 4\ copia.jpg	);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="views/fruits.html" class="cover-wrapper">Fruits</a>
+           </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 image-grid-item">
+            <div style="background-image: url(img/s2\ copia.jpg);" class="entry-cover image-grid-cover has-image">
+              <a href="#" class="image-grid-clickbox"></a>
+              <a href="views/summer.html" class="cover-wrapper">Summer </a>
+            </div>
+        </div>
+      </div>
+    </div>
 
-    <hr style="color: black; background-color: black; height: 6px; margin-top: 50px;"/>
-  
+  </section>
 
+  <hr style="color: black; background-color: black; height: 6px; margin-top: 50px;"/>
+  
   <!--Sección Personaliza--> 
 
-        <div class="contenedor__titulo">
-          <a href="views/personalización.html"><h3>PERSONALIZA LA CAMISETA COMO QUIERAS</h3></a>
-        </div>
-        <div class="banner__personaliza">
-          <img src="img/Personalización.png" width="100%" class="img-fluid" alt="...">
-        </div> 
+   <div class="contenedor__titulo">
+      <a href="views/personalización.html"><h3>PERSONALIZA LA CAMISETA COMO QUIERAS</h3></a>
+    </div>
+   <div class="banner__personaliza">
+     <img src="img/Personalización.png" width="100%" class="img-fluid" alt="...">
+    </div> 
   
   <hr style="color: black; background-color: black; height: 6px; margin-top: 50px;"/>
-       
-        
+           
   <!--Footer-->
 
-    
   <footer class="contenedor__footer">
 
-      
-    <div class="header__redes">
-       
+    <div class="header__redes"> 
       <a href="https://www.tiktok.com/foryou?is_copy_url=1&is_from_webapp=v1"><img src="img/insta.png" height="40" width="40" alt="logoInsta"></a>
       <a href="https://www.tiktok.com/foryou?is_copy_url=1&is_from_webapp=v1"><img src="img/tiktok.png" height="40" width="40" alt="logoTiktok"></a>
       <a href="https://www.tiktok.com/foryou?is_copy_url=1&is_from_webapp=v1"><img src="img/twitt.png" height="35" width="30" alt="logoTwitter"></a>

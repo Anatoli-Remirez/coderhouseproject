@@ -254,6 +254,18 @@
 
 @media (max-width: 576px) {
 
+    .contenedor__titulo--principal{
+
+        h1 {
+
+            font-size: 20px;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
     .card-product .img-wrap img {
         max-height: 100%;
         max-width: 100%;
@@ -414,6 +426,26 @@
         padding-left: 130px;
         padding-right: 130px;
 
+    }
+}
+
+@media (max-width: 576px) {
+
+    .contenedor__imagen--404{
+
+        img {
+            
+            width: 300px;
+            height: 200px;
+
+        }
+    }
+    .contenedor__titulo--404 {
+
+        h1 {
+
+            font-size: 30px;
+        }
     }
 }
 
