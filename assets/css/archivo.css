@@ -18,7 +18,9 @@ body {
   color: black;
   margin-left: 55px;
   margin-right: 55px;
-  font-size: 15px; }
+  font-size: 20px; }
+  body p {
+    font-size: 20px; }
 
 .bg-light {
   background-color: #dbdada !important;
@@ -45,6 +47,9 @@ body {
 
 .navbar-light .navbar-toggler {
   color: black; }
+
+nav {
+  font-size: 20px; }
 
 .contenedor__titulo {
   display: flex;
@@ -155,9 +160,23 @@ body {
     width: 250px;
     padding-left: 30px; } }
 
+@media (min-width: 1024px) {
+  .contenedor__personaliza {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; }
+  ul li {
+    font-size: 18px;
+    line-height: 30px; }
+  .personaliza__imagen img {
+    height: 300px;
+    width: 400px;
+    padding-left: 30px; } }
+
 @media (min-width: 768px) {
   ul li {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 20px; }
   .personaliza__imagen img {
     height: 200px;
@@ -319,7 +338,21 @@ body {
     border-top-left-radius: 0px; } }
 
 @media (max-width: 576px) {
-  .contenedor__imagen--eco {
+  .contenedor__imagen--eco img {
+    width: 300px;
+    height: 250px; }
+  .contenedor__imagen--eco .parrafoEco p {
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 130px;
+    padding-right: 130px; }
+  .contenedor__imagen--ricoh img {
+    width: 300px;
+    height: 250px; }
+  .contenedor__imagen--ricoh {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -327,16 +360,14 @@ body {
     flex-wrap: nowrap;
     align-items: center;
     text-align: center; }
-    .contenedor__imagen--eco img {
-      width: 300px;
-      height: 250px; }
-    .contenedor__imagen--eco .parrafoEco {
-      width: 300px;
-      text-align: left;
-      padding-top: 10px;
-      margin-bottom: 10px;
-      align-items: center;
-      font-size: 8px; } }
+  .parrafoRicoh p {
+    text-align: left;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 130px;
+    padding-right: 130px; } }
 
 .carousel-caption .boton__slide--verde {
   border: 1px solid black;
@@ -430,6 +461,104 @@ a, a:focus, a:hover {
   text-decoration: none;
   outline: 0;
   color: #a8ff78; }
+
+.contenedor__flex--colecciones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .contenedor__flex--colecciones img {
+    padding: 10px; }
+  .contenedor__flex--colecciones .cover {
+    margin-bottom: 100px;
+    position: absolute; }
+
+.imagen1 {
+  background-image: url("../../img/bake1 copia.jpg");
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 300px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.imagen2 {
+  background-image: url("../../img/c2 copia.jpg");
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 300px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.imagen3 {
+  background-image: url("../../img/s1 copia.jpg");
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 300px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.imagen4 {
+  background-image: url("../../img/fruta 6 copia.jpg");
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 300px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.imagen5 {
+  background-image: url("../../img/10 copia.jpg");
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 300px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.imagen6 {
+  background-image: url("../../img/frase1 copia.jpg");
+  background-position: center;
+  background-attachment: inherit;
+  background-size: cover;
+  height: 300px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+.boton {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  background: radial-gradient(#a8ff78, #78ffd6);
+  border-radius: 50px;
+  padding: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.boton:hover {
+  color: orange; }
 
 .contenedor__personaliza {
   display: flex;

@@ -26,11 +26,40 @@
     }
 }
 
+@media (min-width: 1024px) {
+    
+    
+    .contenedor__personaliza {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;    
+    }
+    
+    ul li {
+
+        
+        font-size: 18px;
+        line-height: 30px;
+
+    } 
+        
+
+    .personaliza__imagen img {
+
+        height: 300px;
+        width: 400px;
+        padding-left: 30px;
+       
+    }
+}
+
 @media (min-width: 768px) {
     ul li {
 
         
-        font-size: 12px;
+        font-size: 18px;
         line-height: 20px;
 
     } 
@@ -333,6 +362,38 @@
 
     .contenedor__imagen--eco {
 
+        
+     
+        
+        img {
+            width: 300px;
+            height: 250px;
+        }
+    
+        .parrafoEco p{
+
+            text-align: left;
+            padding-top: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+            font-size: 15px;
+            padding-left: 130px;
+            padding-right: 130px;
+             
+        }
+        
+    }
+
+    .contenedor__imagen--ricoh {
+
+        img {
+            width:300px;
+            height: 250px;
+        }
+    }
+
+    .contenedor__imagen--ricoh {
+
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
@@ -340,24 +401,23 @@
         flex-wrap: nowrap;
         align-items: center;
         text-align: center;
-        
-        img {
-            width: 300px;
-            height: 250px;
-        }
-    
-        .parrafoEco {
-        
-      
-            width: 300px;
-            text-align: left;
-            padding-top: 10px;
-            margin-bottom: 10px;
-            align-items: center;
-            font-size: 8px;
-        }
+    }
+
+    .parrafoRicoh p {
+
+
+        text-align: left;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        font-size: 15px;
+        padding-left: 130px;
+        padding-right: 130px;
+
     }
 }
+
+
 
 
 
